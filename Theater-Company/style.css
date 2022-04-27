@@ -1,0 +1,173 @@
+* { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    margin-top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:rgb(154, 126, 154);
+
+}
+
+
+.header{
+    justify-content: center;
+    color: antiquewhite;
+    justify-items: center;
+    text-align: center;
+}
+
+h1{
+    align-content: center, top;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-size-adjust: 300px;
+}
+
+h2{
+    border-style: double;
+    border: 10px;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    border-spacing: 5px;
+    color: darkslategray;
+}
+
+
+.show-info {
+display: flex;
+justify-content:center;
+flex-direction: row;
+justify-items: center;
+align-items: stretch;
+height: 100%;
+padding: 10px;
+border-style: double;
+border-left: none;
+border-right: none;
+border-color: goldenrod;
+}
+
+.show-list-image{
+    padding-right: 20px;
+}
+
+button{
+    background-color: gold;
+    color: gray;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-left: 7px;
+    align-items: center;
+}
+
+footer{
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map{
+    width: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mapimg{
+    width: 300px;
+    padding-bottom: 50px;
+}
+
+.footinfo {
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+    width: 25%;
+    font: .6em;
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em;
+}
+
+.foothead{
+    font-size: 2em;
+}
+
+.tiny{
+    margin: 3px;
+}
+
